@@ -4,19 +4,18 @@ public class reverseAString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		String str="Sweta";
-		/*int length=0;
-		char rev;
-		
-		for(int i=str.length()-1; i>=0;i--) {
-			
-			rev= str.charAt(i);
-			
-			System.out.println(rev);*/
-		
-		
-		
-		}
 
+		String name = "Selenium";
+		//initialize an empty StringBuilder to reversed string 
+		StringBuilder reverseName = new StringBuilder();
+		
+		//Loop through the string from the end to the begenning
+		for (int i=name.length()-1;i>=0; i--) {
+			
+			reverseName.append(name.charAt(i));
+		}
+		//Print the reversed string
+		System.out.println(reverseName.toString());
 	}
+
+}
