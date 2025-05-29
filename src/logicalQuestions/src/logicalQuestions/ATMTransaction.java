@@ -17,7 +17,7 @@ public class ATMTransaction {
 				Scanner scanner = new Scanner(System.in);
 				int enteredPin;
 
-				System.out.println("🔐 Welcome to the ATM");
+				System.out.println("Welcome to the ATM");
 
 				// PIN validation
 				System.out.print("Enter your PIN: ");
