@@ -6,6 +6,10 @@ public class Overloading {
 		System.out.println(a+b);	
 		}
 	
+	void multiply(int a, int b) {
+		System.out.println(a*b);
+	}
+	
 	
 
 	public static void main(String[] args) {
@@ -13,6 +17,9 @@ public class Overloading {
 		
 		Overloading obj = new Overloading(); {
 			obj.add(10, 20);
+		}
+		Overloading obj2 = new Overloading();{
+			obj2.multiply(10, 20);
 		}
 
 	}
