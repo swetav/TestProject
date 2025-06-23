@@ -5,7 +5,7 @@ public class JavaSupportsOperatorOverloadingForOnlyPlusOperator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MathOperations obj = new MathOperations();
-		
+
 		System.out.println(obj.add(5, 10));
 		System.out.println(obj.add(5.0, 10.0));
 	}
@@ -41,10 +41,10 @@ class Wrapper{
 
 /*
  * Why Doesn't Java Support Operator Overloading? It prevents ambiguity in
- * expressions. 
- * Makes the code easier to read and maintain. 
+ * expressions.
+ * Makes the code easier to read and maintain.
  * However, Java provides limited built-in operator overloading (e.g., string concatenation
  * and wrapper class operations). Instead of operator overloading, Java
  * encourages method overloading for flexibility.
- * 
+ *
  */
