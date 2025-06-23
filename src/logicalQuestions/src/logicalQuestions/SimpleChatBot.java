@@ -8,19 +8,19 @@ public class SimpleChatBot {
         Scanner scanner = new Scanner(System.in);
         String userInput;
 
-        System.out.println("🤖 Chatbot: Hello! Type 'hi' to greet, or 'bye' to exit.");
+        System.out.println(" Chatbot: Hello! Type 'hi' to greet, or 'bye' to exit.");
 
         while (true) {
-            System.out.print("👤 You: ");
+            System.out.print(" You: ");
             userInput = scanner.nextLine().trim().toLowerCase();
 
             if (userInput.equals("hi")) {
-                System.out.println("🤖 Chatbot: Hello! How can I help you?");
+                System.out.println(" Chatbot: Hello! How can I help you?");
             } else if (userInput.equals("bye")) {
-                System.out.println("🤖 Chatbot: Goodbye!");
+                System.out.println(" Chatbot: Goodbye!");
                 break;
             } else {
-                System.out.println("🤖 Chatbot: I don't understand. Try again.");
+                System.out.println(" Chatbot: I don't understand. Try again.");
             }
         }
 
