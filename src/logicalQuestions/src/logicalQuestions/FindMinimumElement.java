@@ -14,6 +14,7 @@ public class FindMinimumElement {
 				Min=arr[i];
 			}
 		}
+		System.out.println("Minimum Element:" + Min);
 
 	}
 
