@@ -10,7 +10,14 @@ public class quicklyVerifyIfAGivenIDExistsWithoutLoopingThroughAll {
 		String[]Id = {"1005","1004","1003","1002","1001"};
 		Arrays.sort(Id);
 		int index= Arrays.binarySearch(Id, "1002");
-		System.out.println(Arrays.toString(Id));
+		
+		if(index>=0) {
+			System.out.println("ID found at index:" + index);
+		}
+		else {
+			System.out.print("ID not found");
+		}
+		System.out.println("Sorted IDS:" + Arrays.toString(Id));
 	}
 
 }
